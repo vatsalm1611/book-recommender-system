@@ -1,0 +1,229 @@
+[2025-08-23 22:30:19,180]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:30:23,133]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:30:23,134]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:30:23,134]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:30:23,134]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:30:23,134]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:30:23,135]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:30:23,136]: INFO: Downloading data from https://https://github.com/vatsalm1611/data into file artifacts\dataset\raw_data\data
+[2025-08-23 22:33:18,100]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:33:20,100]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:33:20,100]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:33:20,100]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:33:20,100]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:33:20,100]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:33:20,100]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:33:20,101]: INFO: Downloading data from https://github.com/vatsalm1611/data into file artifacts\dataset\raw_data\data
+[2025-08-23 22:33:30,727]: INFO: Downloaded data from https://github.com/vatsalm1611/data into file artifacts\dataset\raw_data\data
+[2025-08-23 22:38:40,205]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:39:07,501]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:39:07,502]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:39:07,503]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:39:07,503]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:39:07,503]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:39:07,504]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:39:07,684]: INFO: Using local files from notebook/. Skipping download and extraction.
+[2025-08-23 22:39:09,529]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Books.csv to artifacts\dataset\ingested_data\BX-Books.csv
+[2025-08-23 22:39:09,587]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Book-Ratings.csv to artifacts\dataset\ingested_data\BX-Book-Ratings.csv
+[2025-08-23 22:39:09,610]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Users.csv to artifacts\dataset\ingested_data\BX-Users.csv
+[2025-08-23 22:39:09,610]: INFO: ====================Data Ingestion log completed.==================== 
+
+
+[2025-08-23 22:39:09,610]: INFO: ====================Data Validation log started.==================== 
+[2025-08-23 22:41:31,156]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:41:34,456]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:41:34,456]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:41:34,457]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:41:34,457]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:41:34,457]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:41:34,457]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:41:34,459]: INFO: Using local files from notebook/. Skipping download and extraction.
+[2025-08-23 22:41:34,568]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Books.csv to artifacts\dataset\ingested_data\BX-Books.csv
+[2025-08-23 22:41:34,626]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Book-Ratings.csv to artifacts\dataset\ingested_data\BX-Book-Ratings.csv
+[2025-08-23 22:41:34,644]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Users.csv to artifacts\dataset\ingested_data\BX-Users.csv
+[2025-08-23 22:41:34,644]: INFO: ====================Data Ingestion log completed.==================== 
+
+
+[2025-08-23 22:41:34,644]: INFO: ====================Data Validation log started.==================== 
+[2025-08-23 22:41:37,505]: INFO:  Shape of ratings data file: (1149780, 3)
+[2025-08-23 22:41:37,506]: INFO:  Shape of books data file: (271360, 8)
+[2025-08-23 22:41:39,468]: INFO:  Shape of the final clean dataset: (59850, 9)
+[2025-08-23 22:41:39,722]: INFO: Saved cleaned data to artifacts\dataset\clean_data
+[2025-08-23 22:41:39,751]: INFO: Saved final_rating serialization object to artifacts\serialized_objects
+[2025-08-23 22:41:39,898]: INFO: ====================Data Validation log completed.==================== 
+
+
+[2025-08-23 22:41:39,898]: INFO: ====================Data Transformation log started.==================== 
+[2025-08-23 22:41:40,103]: INFO:  Shape of book pivot table: (742, 888)
+[2025-08-23 22:41:40,123]: INFO: Saved pivot table data to artifacts\dataset\transformed_data
+[2025-08-23 22:41:40,125]: INFO: Saved book_names serialization object to artifacts\serialized_objects
+[2025-08-23 22:41:40,134]: INFO: Saved book_pivot serialization object to artifacts\serialized_objects
+[2025-08-23 22:41:40,136]: INFO: ====================Data Transformation log completed.==================== 
+
+
+[2025-08-23 22:41:40,136]: INFO: ====================Model Trainer log started.==================== 
+[2025-08-23 22:41:40,175]: INFO: Saving final model to artifacts\trained_model\model.pkl
+[2025-08-23 22:41:40,176]: INFO: ====================Model Trainer log completed.==================== 
+
+
+[2025-08-23 22:45:44,401]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:47:02,467]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:47:04,743]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:48:11,461]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:48:14,132]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:48:17,355]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:48:17,357]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:48:17,357]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:48:17,357]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:48:17,357]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:48:17,357]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:48:17,358]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:48:17,365]: INFO: Using local files from notebook/. Skipping download and extraction.
+[2025-08-23 22:48:17,497]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Books.csv to artifacts\dataset\ingested_data\BX-Books.csv
+[2025-08-23 22:48:17,537]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Book-Ratings.csv to artifacts\dataset\ingested_data\BX-Book-Ratings.csv
+[2025-08-23 22:48:17,551]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Users.csv to artifacts\dataset\ingested_data\BX-Users.csv
+[2025-08-23 22:48:17,551]: INFO: ====================Data Ingestion log completed.==================== 
+
+
+[2025-08-23 22:48:17,551]: INFO: ====================Data Validation log started.==================== 
+[2025-08-23 22:48:20,480]: INFO:  Shape of ratings data file: (1149780, 3)
+[2025-08-23 22:48:20,480]: INFO:  Shape of books data file: (271360, 8)
+[2025-08-23 22:48:22,193]: INFO:  Shape of the final clean dataset: (59850, 9)
+[2025-08-23 22:48:22,409]: INFO: Saved cleaned data to artifacts\dataset\clean_data
+[2025-08-23 22:48:22,439]: INFO: Saved final_rating serialization object to artifacts\serialized_objects
+[2025-08-23 22:48:22,566]: INFO: ====================Data Validation log completed.==================== 
+
+
+[2025-08-23 22:48:22,566]: INFO: ====================Data Transformation log started.==================== 
+[2025-08-23 22:48:22,761]: INFO:  Shape of book pivot table: (742, 888)
+[2025-08-23 22:48:22,775]: INFO: Saved pivot table data to artifacts\dataset\transformed_data
+[2025-08-23 22:48:22,777]: INFO: Saved book_names serialization object to artifacts\serialized_objects
+[2025-08-23 22:48:22,783]: INFO: Saved book_pivot serialization object to artifacts\serialized_objects
+[2025-08-23 22:48:22,785]: INFO: ====================Data Transformation log completed.==================== 
+
+
+[2025-08-23 22:48:22,785]: INFO: ====================Model Trainer log started.==================== 
+[2025-08-23 22:48:22,814]: INFO: Saving final model to artifacts\trained_model\model.pkl
+[2025-08-23 22:48:22,815]: INFO: ====================Model Trainer log completed.==================== 
+
+
+[2025-08-23 22:48:22,816]: INFO: Recommended successfully!
+[2025-08-23 22:48:25,732]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:50:10,711]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:50:13,035]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:50:13,035]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:50:13,035]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:50:13,035]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:50:13,035]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:50:13,036]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:50:13,038]: INFO: Using local files from notebook/. Skipping download and extraction.
+[2025-08-23 22:50:13,142]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Books.csv to artifacts\dataset\ingested_data\BX-Books.csv
+[2025-08-23 22:50:13,183]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Book-Ratings.csv to artifacts\dataset\ingested_data\BX-Book-Ratings.csv
+[2025-08-23 22:50:13,199]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Users.csv to artifacts\dataset\ingested_data\BX-Users.csv
+[2025-08-23 22:50:13,200]: INFO: ====================Data Ingestion log completed.==================== 
+
+
+[2025-08-23 22:50:13,200]: INFO: ====================Data Validation log started.==================== 
+[2025-08-23 22:50:16,533]: INFO:  Shape of ratings data file: (1149780, 3)
+[2025-08-23 22:50:16,533]: INFO:  Shape of books data file: (271360, 8)
+[2025-08-23 22:50:18,562]: INFO:  Shape of the final clean dataset: (59850, 9)
+[2025-08-23 22:50:18,822]: INFO: Saved cleaned data to artifacts\dataset\clean_data
+[2025-08-23 22:50:18,852]: INFO: Saved final_rating serialization object to artifacts\serialized_objects
+[2025-08-23 22:50:18,970]: INFO: ====================Data Validation log completed.==================== 
+
+
+[2025-08-23 22:50:18,970]: INFO: ====================Data Transformation log started.==================== 
+[2025-08-23 22:50:19,159]: INFO:  Shape of book pivot table: (742, 888)
+[2025-08-23 22:50:19,177]: INFO: Saved pivot table data to artifacts\dataset\transformed_data
+[2025-08-23 22:50:19,180]: INFO: Saved book_names serialization object to artifacts\serialized_objects
+[2025-08-23 22:50:19,188]: INFO: Saved book_pivot serialization object to artifacts\serialized_objects
+[2025-08-23 22:50:19,191]: INFO: ====================Data Transformation log completed.==================== 
+
+
+[2025-08-23 22:50:19,191]: INFO: ====================Model Trainer log started.==================== 
+[2025-08-23 22:50:19,218]: INFO: Saving final model to artifacts\trained_model\model.pkl
+[2025-08-23 22:50:19,219]: INFO: ====================Model Trainer log completed.==================== 
+
+
+[2025-08-23 22:50:56,562]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-23 22:50:56,563]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-23 22:50:56,563]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:50:56,564]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-23 22:50:56,564]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-23 22:50:56,565]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-23 22:50:56,573]: INFO: Using local files from notebook/. Skipping download and extraction.
+[2025-08-23 22:50:56,685]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Books.csv to artifacts\dataset\ingested_data\BX-Books.csv
+[2025-08-23 22:50:56,725]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Book-Ratings.csv to artifacts\dataset\ingested_data\BX-Book-Ratings.csv
+[2025-08-23 22:50:56,742]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Users.csv to artifacts\dataset\ingested_data\BX-Users.csv
+[2025-08-23 22:50:56,742]: INFO: ====================Data Ingestion log completed.==================== 
+
+
+[2025-08-23 22:50:56,742]: INFO: ====================Data Validation log started.==================== 
+[2025-08-23 22:50:59,342]: INFO:  Shape of ratings data file: (1149780, 3)
+[2025-08-23 22:50:59,342]: INFO:  Shape of books data file: (271360, 8)
+[2025-08-23 22:51:01,755]: INFO:  Shape of the final clean dataset: (59850, 9)
+[2025-08-23 22:51:02,126]: INFO: Saved cleaned data to artifacts\dataset\clean_data
+[2025-08-23 22:51:02,156]: INFO: Saved final_rating serialization object to artifacts\serialized_objects
+[2025-08-23 22:51:02,287]: INFO: ====================Data Validation log completed.==================== 
+
+
+[2025-08-23 22:51:02,287]: INFO: ====================Data Transformation log started.==================== 
+[2025-08-23 22:51:02,511]: INFO:  Shape of book pivot table: (742, 888)
+[2025-08-23 22:51:02,533]: INFO: Saved pivot table data to artifacts\dataset\transformed_data
+[2025-08-23 22:51:02,535]: INFO: Saved book_names serialization object to artifacts\serialized_objects
+[2025-08-23 22:51:02,544]: INFO: Saved book_pivot serialization object to artifacts\serialized_objects
+[2025-08-23 22:51:02,546]: INFO: ====================Data Transformation log completed.==================== 
+
+
+[2025-08-23 22:51:02,547]: INFO: ====================Model Trainer log started.==================== 
+[2025-08-23 22:51:02,585]: INFO: Saving final model to artifacts\trained_model\model.pkl
+[2025-08-23 22:51:02,586]: INFO: ====================Model Trainer log completed.==================== 
+
+
+[2025-08-23 22:53:37,034]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:53:39,433]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:53:49,029]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:55:37,976]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-23 22:55:40,440]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:55:46,252]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-23 22:55:47,825]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
+[2025-08-24 00:36:45,970]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-24 00:42:42,435]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-24 00:44:20,693]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-24 00:44:31,595]: INFO: ====================Data Ingestion log started.==================== 
+[2025-08-24 00:44:31,596]: INFO: Data Ingestion Config: DatasetConfig(dataset_download_url='https://github.com/vatsalm1611/data', raw_data_dir='artifacts\\dataset\\raw_data', ingested_dir='artifacts\\dataset\\ingested_data')
+[2025-08-24 00:44:31,596]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-24 00:44:31,596]: INFO: Data Transformation Config: DataTransformationConfig(clean_data_file_path='artifacts\\dataset\\clean_data\\clean_data.csv', transformed_data_dir='artifacts\\dataset\\transformed_data')
+[2025-08-24 00:44:31,596]: INFO: Data Validation Config: DataValidationConfig(clean_data_dir='artifacts\\dataset\\clean_data', books_csv_file='artifacts\\dataset\\ingested_data\\BX-Books.csv', ratings_csv_file='artifacts\\dataset\\ingested_data\\BX-Book-Ratings.csv', serialized_objects_dir='artifacts\\serialized_objects')
+[2025-08-24 00:44:31,596]: INFO: Model Trainer Config: ModelTrainerConfig(transformed_data_file_dir='artifacts\\dataset\\transformed_data\\transformed_data.pkl', trained_model_dir='artifacts\\trained_model', trained_model_name='model.pkl')
+[2025-08-24 00:44:31,599]: INFO: Using local files from notebook/. Skipping download and extraction.
+[2025-08-24 00:44:34,164]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Books.csv to artifacts\dataset\ingested_data\BX-Books.csv
+[2025-08-24 00:44:35,985]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Book-Ratings.csv to artifacts\dataset\ingested_data\BX-Book-Ratings.csv
+[2025-08-24 00:44:36,026]: INFO: Copied C:\Users\DELL\Desktop\Working\book-recommender-system\notebook\BX-Users.csv to artifacts\dataset\ingested_data\BX-Users.csv
+[2025-08-24 00:44:36,026]: INFO: ====================Data Ingestion log completed.==================== 
+
+
+[2025-08-24 00:44:36,026]: INFO: ====================Data Validation log started.==================== 
+[2025-08-24 00:44:38,043]: INFO:  Shape of ratings data file: (1149780, 3)
+[2025-08-24 00:44:38,043]: INFO:  Shape of books data file: (271360, 8)
+[2025-08-24 00:44:39,575]: INFO:  Shape of the final clean dataset: (59850, 9)
+[2025-08-24 00:44:39,833]: INFO: Saved cleaned data to artifacts\dataset\clean_data
+[2025-08-24 00:44:39,865]: INFO: Saved final_rating serialization object to artifacts\serialized_objects
+[2025-08-24 00:44:39,963]: INFO: ====================Data Validation log completed.==================== 
+
+
+[2025-08-24 00:44:39,964]: INFO: ====================Data Transformation log started.==================== 
+[2025-08-24 00:44:40,169]: INFO:  Shape of book pivot table: (742, 888)
+[2025-08-24 00:44:40,200]: INFO: Saved pivot table data to artifacts\dataset\transformed_data
+[2025-08-24 00:44:40,201]: INFO: Saved book_names serialization object to artifacts\serialized_objects
+[2025-08-24 00:44:40,207]: INFO: Saved book_pivot serialization object to artifacts\serialized_objects
+[2025-08-24 00:44:40,208]: INFO: ====================Data Transformation log completed.==================== 
+
+
+[2025-08-24 00:44:40,208]: INFO: ====================Model Trainer log started.==================== 
+[2025-08-24 00:44:40,248]: INFO: Saving final model to artifacts\trained_model\model.pkl
+[2025-08-24 00:44:40,248]: INFO: ====================Model Trainer log completed.==================== 
+
+
+[2025-08-24 12:19:05,780]: INFO: NumExpr defaulting to 8 threads.
+[2025-08-24 12:19:07,160]: INFO: Model Recommendation Config: ModelRecommendationConfig(book_name_serialized_objects='artifacts\\serialized_objects\\book_names.pkl', book_pivot_serialized_objects='artifacts\\serialized_objects\\book_pivot.pkl', final_rating_serialized_objects='artifacts\\serialized_objects\\final_rating.pkl', trained_model_path='artifacts\\trained_model\\model.pkl')
