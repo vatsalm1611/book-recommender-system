@@ -20,3 +20,9 @@ class TrainingPipeline:
         self.data_validation.initiate_data_validation()
         self.data_transformation.initiate_data_transformation()
         self.model_trainer.initiate_model_trainer() 
+
+
+
+if __name__ == "__main__":
+    pipe = TrainingPipeline()
+    pipe.start_training_pipeline()

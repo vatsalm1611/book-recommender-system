@@ -1,0 +1,32 @@
+{
+  "matrix": {
+    "shape": [
+      742,
+      888
+    ],
+    "nnz": 14942,
+    "density": 0.02267732692260994
+  },
+  "load_times_sec": {
+    "load_pivot": 0.0315,
+    "build_csr": 0.011,
+    "train_knn": 0.0008
+  },
+  "memory_bytes": {
+    "dense_estimate": 5271168,
+    "csr_actual": 182276,
+    "savings_ratio": 0.9654201877079236
+  },
+  "query_latency_ms": {
+    "mean": 0.91,
+    "p50": 0.89,
+    "p90": 0.96,
+    "p99": 1.29,
+    "trials": 50
+  },
+  "artifact_sizes_bytes": {
+    "book_pivot.pkl": 5303704,
+    "final_rating.pkl": 3896611,
+    "model.pkl": 183082
+  }
+}
